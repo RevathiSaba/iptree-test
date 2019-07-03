@@ -19,7 +19,7 @@ g++ -O2 -g3 main.cc msc_tree.cc -o msc
 ### Build nms (waflz ip trie)
 
 ```bash
-cd waflzip_tree
+cd waflz_iptree
 g++ -O2 -g3 main.cc nms.cc -o nms
 ```
 
@@ -50,8 +50,13 @@ Run msc with the desired testdata
 ./nms --file=../testdata/ipaddr_1000_shuffled.txt
 ```
 
+Output will print out the search time in seconds
+
 ### Note
 testdata folder has lot of samples of ipv4 and ipv6 address to perform load and search
+
+
+Sample load and search metrics are here: https://verizondigital.github.io/waflz/appendix.html#ip-trie-performance
 
 
 
