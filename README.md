@@ -12,7 +12,7 @@ Utilities to compare memory and search metrics of ModSecurity msc_tree and Waflz
 ### Build msc tree
 
 ```bash
-cd modsec_iptree/modsec_iptree_c++
+cd modsec_iptree
 g++ -O2 -g3 main.cc msc_tree.cc -o msc
 ```
 
