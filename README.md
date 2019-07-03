@@ -5,8 +5,6 @@ Utilities to compare memory and search metrics of ModSecurity msc_tree and Waflz
 
 ### Generate ipv4 and ipv6 address using random_ip_generator.py.
 
-   Example:
-
 ```bash
 ./random_ip_generator.py --type=ipv4 --num=100000 --file=ipaddr_v4.txt
 ```
