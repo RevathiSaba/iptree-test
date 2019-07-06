@@ -43,7 +43,7 @@ Maximum resident memory is the memory used by the tree
 ```
 
 ```bash
-./nms --file=../testdata/ipaddr_1000_shuffled.txt
+./nms --file=../testdata/ipaddr_1000_shuffled.txt --search=../tesdata/ipv4/ipaddr_original.txt
 ```
 
 Output will print out the search time in seconds
