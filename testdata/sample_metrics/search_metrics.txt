@@ -1,0 +1,117 @@
+
+=========================================
+ipv4
+=========================================
+Mod security:
+============
+loaded ip's : 1000000
+search 1p's: 1000000
+time taken: 1.670034 seconds
+
+loaded ip's :100000
+search ip's: 1000000
+time taken : 0.814250 seconds
+
+loaded ip's :10000
+search ip's: 1000000
+time taken : 0.275079 seconds
+
+loaded ip's :1000
+search ip's: 1000000
+time taken : 0.175707 seconds
+
+loaded ip's :100
+search ip's: 1000000
+time taken : 0.122925 seconds
+
+loaded ip's :10
+search ip's: 1000000
+time taken : 0.100709 seconds
+
+Waflz:
+======
+loaded ip's : 1000000
+search 1p's: 1000000
+time taken: 1.146223 seconds
+
+loaded ip's :100000
+search ip's: 1000000
+time taken : 0.306290 seconds
+
+
+loaded ip's :10000
+search ip's: 1000000
+time taken : 0.170310 seconds
+
+
+loaded ip's :1000
+search ip's: 1000000
+time taken : 0.118518 seconds
+
+loaded ip's :100
+search ip's: 1000000
+time taken : 0.092169 seconds
+
+loaded ip's :10
+search ip's: 1000000
+time taken : 0.069601 seconds
+
+
+=========================================
+ipv6
+=========================================
+
+=========================================
+Mod security:
+============
+loaded ip's : 1000000
+search 1p's: 1000000
+time taken: 1.853644
+
+loaded ip's :100000
+search ip's: 1000000
+time taken : 1.030830 seconds
+
+loaded ip's :10000
+search ip's: 1000000
+time taken : 0.439627 seconds
+
+loaded ip's :1000
+search ip's: 1000000
+time taken : 0.339208 seconds
+
+loaded ip's :100
+search ip's: 1000000
+time taken : 0.288798 seconds
+
+loaded ip's :10
+search ip's: 1000000
+time taken : 0.270561 seconds
+
+Waflz:
+======
+loaded ip's : 1000000
+search 1p's: 1000000
+time taken: 1.431714 seconds
+
+loaded ip's :100000
+search ip's: 1000000
+time taken : 0.753523 seconds
+
+
+loaded ip's :10000
+search ip's: 1000000
+time taken : 0.406338 seconds
+
+
+loaded ip's :1000
+search ip's: 1000000
+time taken : 0.327461 seconds
+
+loaded ip's :100
+search ip's: 1000000
+time taken : 0.296638 seconds
+
+loaded ip's :10
+search ip's: 1000000
+time taken : 0.258316 seconds

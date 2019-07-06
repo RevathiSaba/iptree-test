@@ -1,0 +1,1 @@
+g++ -O2 main.cc msc_tree.cc -o msc

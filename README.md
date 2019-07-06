@@ -13,37 +13,33 @@ Utilities to compare memory and search metrics of ModSecurity msc_tree and Waflz
 
 ```bash
 cd modsec_iptree
-g++ -O2 -g3 main.cc msc_tree.cc -o msc
+./build.sh
 ```
 
 ### Build nms (waflz ip trie)
 
 ```bash
 cd waflz_iptree
-g++ -O2 -g3 main.cc nms.cc -o nms
+./build.sh
 ```
 
 ### Steps to gather memory metrics
 	
 ```bash
-/usr/bin/time -v ./msc --file=../testdata/ipaddr_1000_shuffled.txt --type=ipv4
+/usr/bin/time -v ./msc --file=../testdata/ipv4/ipaddr_1000_shuffled.txt --type=ipv4
 ```
 
 ```bash
-/usr/bin/time -v ./nms --file=../testdata/ipaddr_1000_shuffled.txt
+/usr/bin/time -v ./nms --file=../testdata/ipv4/ipaddr_1000_shuffled.txt
 ```
 
 Maximum resident memory is the memory used by the tree
 
 
 ### Steps to gather search metrics
-	
-Uncomment or define search vector in main.cc and rebuild msc and nms
-
-Run msc with the desired testdata
 
 ```bash
-./msc --file=../testdata/ipaddr_1000_shuffled.txt --type=ipv4
+./msc --file=../testdata/ipaddr_1000_shuffled.txt --type=ipv4 --search=../testdata/ipv4/ipaddr_orginal.txt
 ```
 
 ```bash

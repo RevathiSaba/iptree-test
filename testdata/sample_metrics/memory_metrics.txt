@@ -1,0 +1,68 @@
+memory metrics:
+
+ipv4:
+=====
+
+Num of ip address:10
+mod_sec - 2816
+waflz - 2808
+
+Num of ip address:100
+mod_sec - 2844
+waflz -  2881
+
+
+Num of ip address:1000
+mod_sec -3036
+waflz - 2886
+
+Num of ip address:10000
+mod_sec - 5012
+waflz -  3360
+
+
+Num of ip address:100000
+mod_sec - 24668
+waflz - 7412
+
+Num of ip address:1000000
+mod_sec - 221712
+waflz - 49764
+
+Num of ip address:10000000
+mod_sec - 2189368
+waflz - 470988
+
+
+ipv6:
+====
+Num of ip address:10
+mod_sec - 2852
+waflz - 2832
+
+
+Num of ip address:100
+mod_sec - 2992
+waflz -2844
+
+
+Num of ip address:1000
+mod_sec - 3036
+waflz -2922
+
+Num of ip address:10000
+mod_sec - 5068
+waflz - 3464
+
+
+Num of ip address:100000
+mod_sec - 24580
+waflz - 9132
+
+Num of ip address:1000000
+mod_sec - 221580
+waflz - 65384
+
+Num of ip address:10000000
+mod_sec - 2190356
+waflz - 628044
