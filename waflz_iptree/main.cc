@@ -124,6 +124,7 @@ int main(int argc, char** argv)
         else
         {
             printf("loading ip failed\n");
+            if(l_nms != NULL) { delete l_nms; l_nms = NULL; }
             return 0;
         }
         // -----------------------------------------
@@ -177,7 +178,7 @@ int main(int argc, char** argv)
         l_total_time = ((double)(l_end-l_start)) / CLOCKS_PER_SEC;
         printf("time taken to search:%f\n", l_total_time);
                 
-    
+cleanup:
         if(l_nms != NULL)
         {
             delete l_nms;

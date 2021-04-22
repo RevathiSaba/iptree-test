@@ -1,1 +1,1 @@
-g++ -O2 main.cc nms.cc -o nms
+g++ -g3 -O3 main.cc nms.cc -o nms -fsanitize=address -fno-omit-frame-pointer
