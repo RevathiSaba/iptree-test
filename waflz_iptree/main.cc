@@ -115,7 +115,7 @@ int main(int argc, char** argv)
                printf("Error opening file: %s.  Reason: %s\n", l_file_load_str.c_str(), strerror(errno));
                return STATUS_ERROR;
         }
-        ns_waflz::nms* l_nms = new ns_waflz::nms();
+        ns_waflz::nms* l_nms = NULL;
         l_s = ns_waflz::create_nms_from_file(&l_nms, l_file_load_str);
         if(l_s == STATUS_OK)
         {
@@ -132,7 +132,8 @@ int main(int argc, char** argv)
         // ----------------------------------------- 
         if(l_file_search_str.empty())
         {
-            return 0;
+                if(l_nms != NULL) { delete l_nms; l_nms = NULL; }
+                return 0;
         }
 
         printf("Searching\n");
